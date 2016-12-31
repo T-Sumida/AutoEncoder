@@ -14,6 +14,7 @@ srcフォルダ内に「main.py」に大体の使い方を記載
 
 ## Requirement
 Python 3.5.1
+
 numpy 1.1.13
 
 ## Licence
