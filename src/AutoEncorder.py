@@ -62,7 +62,7 @@ class LossFunction:
 
 
 
-class AutoEncorder:
+class AutoEncoder:
     """
     自己符号化クラス
     """
@@ -136,7 +136,7 @@ class AutoEncorder:
                 h,o = self.__forward(x)
                 self.__backprop(x,h,o)
                 i+=1
-            
+
             err = self._error(data)
             print(err)
 
